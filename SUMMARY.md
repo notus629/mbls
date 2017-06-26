@@ -6,4 +6,4 @@
 * [HTML & CSS](html_css/README.md)
 * [Appendix](appendix/README.md)
     * [Projects](appendix/projects/README.md)
-    * [learning](appendix/learning-materials/learning.md)
+    * [learning](appendix/learning-materials/README.md)
