@@ -2,4 +2,7 @@
 
 * [LeetBook（LeetCode详解）][leetbook]
 
-[leetbook](https://www.gitbook.com/book/hk029/leetbook/details)
+
+
+
+[leetbook]:(https://www.gitbook.com/book/hk029/leetbook/details)
