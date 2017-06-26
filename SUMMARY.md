@@ -1,11 +1,9 @@
 # 目录
 
 * [前言](README.md)
-* [mbls](mbls/mbls.md)
-* [PHP](mbls/PHP/README.md)
-    * [hi](hiewf.md)
-* [JavaScript]()
-* [HTML/CSS]()
-* [Projects](mbls/projects/README.md)
-* [Appendix](mbls/appendix/learning-materials/README.md)
+* [PHP](php/README.md)
+* [JavaScript](javascript/README.md)
+* [HTML & CSS](html_css/README.md)
+* [Appendix](appendix/learning-materials/README.md)
+    * [Projects](appendix/projects/README.md)
     * [learning](mbls/learning-materials/learning.md)
