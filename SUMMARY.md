@@ -6,5 +6,5 @@
 * [JavaScript]()
 * [HTML/CSS]()
 * [Projects](mbls/projects/README.md)
-* [Appendix](appendix/learning-materials)
+* [Appendix](mbls/appendix/learning-materials)
     * [learning](mbls/learning-materials/learning.md)
