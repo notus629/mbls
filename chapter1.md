@@ -1,6 +1,6 @@
 # First Chapter
 
-* hi
+* 
 
 
 
