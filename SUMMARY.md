@@ -5,6 +5,8 @@
     * [Laravel](php/laravel/README.md)
     * [ThinkPHP](php/thinkphp/README.md)
 * [JavaScript](javascript/README.md)
+    * [jQuery](javascript/jQuery/README.md)
+    * [Vue.js](javascript/vuejs/README.md)
 * [HTML & CSS](htmlCss/README.md)
 * [数据库](db/README.md)
     * [MySQL](db/mysql/README.md)
