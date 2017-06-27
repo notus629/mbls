@@ -1,6 +1,6 @@
 ### GitBook
 
-### 工具书和手册
+#### 工具书和手册
 * *[GitBook Toolchain Documentation](https://www.gitbook.com/book/gitbookio/docs-toolchain/details)*. GitBook 详细参考文档。
 * *[GitBook Plugins](https://plugins.gitbook.com/)*. GitBook 插件库。
 * *[GitBook Help Center](https://help.gitbook.com/)*. 包含很多有用的 FAQ.
