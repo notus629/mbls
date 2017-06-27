@@ -7,6 +7,12 @@
 * *[GitBook Introduction](https://mlewistw.gitbooks.io/gitbook-introduction/content/)*. 截止到 2017-6-27，最后一次更新已是3年前。
 * *[GitBook API Reference](https://developer.gitbook.com/)* . For developers.
 
+#### 基础
+1. `gitbook` 命令，如，在本地生成 web 版 book，并能以 * http://localhost:4000 * 的方式访问。
+```bash
+$ gitbook serve
+```
+
 #### 插件
 
 ##### 插件安装
