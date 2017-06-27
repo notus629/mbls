@@ -9,7 +9,7 @@
   * [JavaScript](javascript/javascript/README.md)
   * [jQuery](javascript/jquery/README.md)
   * [Vue.js](javascript/vuejs/README.md)
-* [HTML & CSS](htmlCss/README.md)
+* [HTML & CSS](htmlcss/README.md)
 * [数据库](db/README.md)
   * [MySQL](db/mysql/README.md)
   * [Redis](db/redis/README.md)
