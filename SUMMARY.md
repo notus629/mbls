@@ -13,7 +13,7 @@
 * [数据库](db/README.md)
   * [MySQL](db/mysql/README.md)
   * [Redis](db/redis/README.md)
-  * [Memcached](db/Memcached.md)
+  * [Memcached](db/memcached/README.md)
 * [服务器](server/README.md)
   * [Linux](server/linux/README.md)
   * [Nginx](server/nginx/README.md)
