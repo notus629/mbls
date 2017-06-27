@@ -19,6 +19,7 @@
 * [工具](tools/README.md)
   * [编辑器&IDE](tools/editor/README.md)
     * [GitBook](tools/editor/gitbook/README.md)
+    * [MarkDown](tools/editor/markdown/README.md)
 * [附录](appendix/README.md)
   * [项目](appendix/projects/README.md)
   * [学习资料](appendix/learningRef/README.md)
