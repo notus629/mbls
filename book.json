@@ -1,3 +1,3 @@
 {
-    "plugins" : ["ace", "new-flowchart"]
+    "plugins" : ["-highlight", "ace", "new-flowchart"]
 }
