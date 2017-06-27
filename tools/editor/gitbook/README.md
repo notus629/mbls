@@ -3,7 +3,7 @@
 * [工具书和手册](#工具书和手册)
 * [基础](#基础)
 * [插件](#插件)
-* [那些年，我遇到的坑](#那些年，我遇到的坑)
+* [那些年，我所遇到的坑](#那些年，我所遇到的坑)
 
 #### 工具书和手册
 * *[GitBook Toolchain Documentation](https://www.gitbook.com/book/gitbookio/docs-toolchain/details)*. GitBook 详细参考文档。
@@ -39,7 +39,7 @@ $ gitbook serve
 * *[sunlight-highlighter](https://plugins.gitbook.com/plugin/sunlight-highlighter)*. 代码高亮插件 *Sunlight highlighter*.
 
 
-#### 那些年，我遇到的坑
+#### 那些年，我所遇到的坑
 1. 因为四个空格后是引用，此第一级的列表前不要打四个空格。否则在 * GitBook Editor* 中没有问题，但到了 *gitbook.io* 链接会显示源码，而不会正确的展示。
 1. { %  raw  % } { %  endraw  % } 慎用，在 GitBookEditor 和 GitBook.com 上表现不一。（ { 或 } 与 % 之间无空格）
 1. flow, new-flowchart 两个插件都不起作用。前者似乎语法都有误，无法开启 `gitbook serve`, 后者没法使用。
