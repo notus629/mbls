@@ -3,7 +3,7 @@
 ### 工具书和手册
 * *[GitBook Toolchain Documentation](https://www.gitbook.com/book/gitbookio/docs-toolchain/details)*. GitBook 详细参考文档。
 * *[GitBook Plugins](https://plugins.gitbook.com/)*. GitBook 插件库。
-* *[GitBook Help Center](GitBook Help Center)*. 包含很多有用的 FAQ.
+* *[GitBook Help Center](https://help.gitbook.com/)*. 包含很多有用的 FAQ.
 * *[GitBook Introduction](https://mlewistw.gitbooks.io/gitbook-introduction/content/)*. 截止到 2017-6-27，最后一次更新已是3年前。
 * *[GitBook API Reference](https://developer.gitbook.com/)* . For developers.
 
