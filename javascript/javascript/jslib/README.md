@@ -1,1 +1,1 @@
-## JavaScript 开源库
+## JS 库
