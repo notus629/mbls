@@ -24,5 +24,5 @@
     * [MarkDown](tools/editor/markdown/README.md)
 * [附录](appendix/README.md)
   * [项目](appendix/projects/README.md)
-  * [学习资料](appendix/learningRef/README.md)
+  * [学习资料](appendix/learningref/README.md)
 
