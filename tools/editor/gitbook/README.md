@@ -10,7 +10,7 @@
 #### 插件
 
 ##### 插件安装
-1. 修改 **book.json** 文件，加入 *new-flowchart* 和 *katex* 插件。
+1. 修改 **book.json** 文件，加入 *ace* 和 *katex* 插件。
 ```json
 {
     "plugins" : ["ace", "katex"]
