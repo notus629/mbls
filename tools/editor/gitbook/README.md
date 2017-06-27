@@ -8,4 +8,7 @@
 
 #### 插件
 * 代码高亮插件 [GitBook Ace Plugin](https://github.com/ymcatar/gitbook-plugin-ace). (实际上 GitBook 已可以自行代码高亮，不太了解此插件的优势)。[示例](https://ymcatar.gitbooks.io/gitbook-test/content/testing_ace.html)
+
+#### 那些年，我遇到的坑
+* 因为四个空格后是引用，此第一级的列表前不要打四个空格。否则在GitBook Editor 中没有问题，但到了 gitbook.io 链接会显示源码，而不会正确的展示。
     
