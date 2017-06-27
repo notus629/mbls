@@ -9,7 +9,7 @@
 
 #### 基础
 1. `gitbook` 命令，如，在本地生成 web 版 book，并能以 * http://localhost:4000 * 的方式访问。
-```bash
+```
 $ gitbook serve
 ```
 
