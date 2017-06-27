@@ -1,8 +1,7 @@
 {
-    "plugins" : ["ace", "flow"],
+    "plugins" : ["ace"],
     "pluginsConfig": {
-        "flow": {
-            "line-color": "red"
+        "ace": {
           }
       }
 }
