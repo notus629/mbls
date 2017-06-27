@@ -2,9 +2,11 @@
 
 * [前言](README.md)
 * [PHP](php/README.md)
+  * [PHP](php/php/README.md)
   * [Laravel](php/laravel/README.md)
   * [ThinkPHP](php/thinkphp/README.md)
 * [JavaScript](javascript/README.md)
+  * [JavaScript](javascript/javascript/README.md)
   * [jQuery](javascript/jQuery/README.md)
   * [Vue.js](javascript/vuejs/README.md)
 * [HTML & CSS](htmlCss/README.md)
