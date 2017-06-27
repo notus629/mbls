@@ -3,6 +3,7 @@
 * [工具书和手册](#工具书和手册)
 * [基础](#基础)
 * [插件](#插件)
+* [那些年，我遇到的坑](#那些年，我遇到的坑)
 
 #### 工具书和手册
 * *[GitBook Toolchain Documentation](https://www.gitbook.com/book/gitbookio/docs-toolchain/details)*. GitBook 详细参考文档。
