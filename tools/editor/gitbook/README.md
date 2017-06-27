@@ -21,7 +21,7 @@
 ##### 插件列表
 * [GitBook Ace Plugin](https://github.com/ymcatar/gitbook-plugin-ace "Ace") 代码高亮插件。 [示例](https://ymcatar.gitbooks.io/gitbook-test/content/testing_ace.html)
 * [sunlight-highlighter](https://plugins.gitbook.com/plugin/sunlight-highlighter). 代码高亮插件 *Sunlight highlighter*
-* [new-flowchart](https://github.com/nsdont/gitbook-plugin-new-flowchart#readme). 画流程图插件
+* [new-flowchart](https://plugins.gitbook.com/plugin/new-flowchart). 画流程图插件
 * [disqus](https://plugins.gitbook.com/plugin/disqus). 评论插件
 * [katex](https://plugins.gitbook.com/plugin/katex). 使用 *KaTeX* 进行数学排版的插件。
 
