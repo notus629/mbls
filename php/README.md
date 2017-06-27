@@ -1,7 +1,7 @@
 # PHP
 
 ## 轻量级框架
-* [slim][slim]([slim.cn][slimcn])
+* [slim][slim]([中文官网][slimcn])
 
 
 
