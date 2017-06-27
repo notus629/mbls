@@ -30,7 +30,7 @@
 
 #### 那些年，我遇到的坑
 1. 因为四个空格后是引用，此第一级的列表前不要打四个空格。否则在 * GitBook Editor* 中没有问题，但到了 *gitbook.io* 链接会显示源码，而不会正确的展示。
-1. { % raw % } { % endraw % }慎用，在 GitBookEditor 和 GitBook.com 上表现不一。
+1. { %  raw  % } { %  endraw  % }慎用，在 GitBookEditor 和 GitBook.com 上表现不一。
 1. flow, new-flowchart 两个插件都不起作用。前者似乎语法都有误，无法开启 `gitbook serve`, 后者没法使用。
 1. 对于 GitBook.com 在线编辑器以及 Mac OS X 版的 GitBook Editor，都不能正确的预览插件的效果（如 ace 插件，其它插件没有尝试）。但插件的效果能在在线的 book 和本地的 web 版中正确的显示。
     
