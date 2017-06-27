@@ -10,7 +10,7 @@
 #### 项目说明
 * 开发一个简单的具备前后台管理的 cms 系统。
 * 后端采用 ThinkPHP 3.2 框架。
-* 前端使用 Bootstrap, jQuery 和 layer 等。
+* 前端使用 Bootstrap, jQuery 和 layer 等开源库。
 
 #### 需求分析
 1. 功能分析
