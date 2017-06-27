@@ -19,6 +19,7 @@
 2. 执行 `gitbook install` 命令，安装所有插件. 注意: 如同 git 命令一样, git install 也需要在该 book 的当前目录执行（即 book.json 所在目录)
 
 ##### 插件列表
+* *[-highlight](https://plugins.gitbook.com/plugin/highlight)*. GitBook 的缺省高亮插件
 * [GitBook Ace Plugin](https://github.com/ymcatar/gitbook-plugin-ace "Ace") 代码高亮插件。 [示例](https://ymcatar.gitbooks.io/gitbook-test/content/testing_ace.html)
 * [sunlight-highlighter](https://plugins.gitbook.com/plugin/sunlight-highlighter). 代码高亮插件 *Sunlight highlighter*
 * [new-flowchart](https://plugins.gitbook.com/plugin/new-flowchart). 画流程图插件
