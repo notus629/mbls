@@ -1,5 +1,5 @@
 {
-    "title": "Notus",
+    "Authors": "Notus",
     "description": "我是一个 PHP 程序员。",
     "plugins" : ["ace", "new-flowchart"]
 }
