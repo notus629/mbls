@@ -5,7 +5,8 @@
     * [参考示例](#参考示例)
 
 ### layer
-*[layer](http://layer.layui.com/)*  Web 弹出层组件，用于网页上的弹出框。
+* *[layer](http://layer.layui.com/)*  Web 弹出层组件，用于网页上的弹出框。
+* [layer 文档](http://www.layui.com/doc/modules/layer.html)
 
 #### 参考示例
 {%ace edit=true lang='javascript'%}
