@@ -1,8 +1,8 @@
 ### MarkDown
 
 #### 目录
-    * [快速参考](#快速参考)
-    * [基本语法](#基本语法)
+* [快速参考](#快速参考)
+* [基本语法](#基本语法)
     
 #### 快速参考
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
