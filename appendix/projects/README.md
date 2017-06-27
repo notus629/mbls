@@ -9,7 +9,7 @@
 * 实现
 
 #### 示例
-```
+```php
 <?php
     echo 'Hello, world';
 ?>
