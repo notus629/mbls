@@ -7,7 +7,7 @@
   * [ThinkPHP](php/thinkphp/README.md)
 * [JavaScript](javascript/README.md)
   * [JavaScript](javascript/javascript/README.md)
-    * [JavaScript Lib](javascript/javascript/jslib/README.md)
+    * [JS 库](javascript/javascript/jslib/README.md)
   * [jQuery](javascript/jquery/README.md)
   * [Vue.js](javascript/vuejs/README.md)
 * [HTML & CSS](htmlcss/README.md)
