@@ -8,7 +8,6 @@
 * [GitBook API Reference](https://developer.gitbook.com/) . For developers.
 
 #### 插件
-* 代码高亮插件 [GitBook Ace Plugin](https://github.com/ymcatar/gitbook-plugin-ace "Ace"). (实际上 GitBook 已可以自行代码高亮，不太了解此插件的优势)。[示例](https://ymcatar.gitbooks.io/gitbook-test/content/testing_ace.html)
 
 ##### 插件安装
 1. 修改 **book.json** 文件，加入 *new-flowchart* 插件。
@@ -18,6 +17,11 @@
 }
 ```
 2. 执行 `gitbook install` 命令，安装所有插件. 注意: 如同 git 命令一样, git install 也需要在该 book 的当前目录执行（即 book.json 所在目录)
+
+##### 插件列表
+* 代码高亮插件 [GitBook Ace Plugin](https://github.com/ymcatar/gitbook-plugin-ace "Ace") [示例](https://ymcatar.gitbooks.io/gitbook-test/content/testing_ace.html)
+
+
 
 
 #### 那些年，我遇到的坑
