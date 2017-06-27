@@ -1,5 +1,6 @@
 ## ThinkPHP
-{%ace lang='javascript'%}
+
+{%ace edit=true lang='javascript'%}
 <?php
 echo 'hi, leo';
 ?>
