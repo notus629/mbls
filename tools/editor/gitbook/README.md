@@ -19,7 +19,7 @@
 2. 执行 `gitbook install` 命令，安装所有插件. 注意: 如同 git 命令一样, git install 也需要在该 book 的当前目录执行（即 book.json 所在目录)
 
 ##### 插件列表
-* *[-highlight](https://plugins.gitbook.com/plugin/highlight)*. GitBook 的缺省高亮插件。
+* *[-highlight](https://plugins.gitbook.com/plugin/highlight)*. GitBook 的缺省高亮插件, 即插件库的 *highlight* 和 *ponylang-highlight* 插件。
 * [disqus](https://plugins.gitbook.com/plugin/disqus). 评论插件。
 * [katex](https://plugins.gitbook.com/plugin/katex). 使用 *KaTeX* 进行数学排版的插件。
 * [new-flowchart](https://plugins.gitbook.com/plugin/new-flowchart). 利用 *flow.js* 画流程图插件。
