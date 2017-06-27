@@ -11,7 +11,7 @@
 
 #### 基本语法
 
-{% raw %}```markdown
+{% raw %}
 Markdown 语法速查表  
 
 1 标题与文字格式  
