@@ -10,6 +10,16 @@
 #### 插件
 * 代码高亮插件 [GitBook Ace Plugin](https://github.com/ymcatar/gitbook-plugin-ace "Ace"). (实际上 GitBook 已可以自行代码高亮，不太了解此插件的优势)。[示例](https://ymcatar.gitbooks.io/gitbook-test/content/testing_ace.html)
 
+##### 插件安装
+1. 修改 **book.json** 文件，加入 *new-flowchart* 插件。
+```
+{
+    "plugins" : ["new-flowchart"]
+}
+```
+2. 执行 `gitbook install` 命令，安装所有插件. 注意: 如同 git 命令一样, git install 也需要在该 book 的当前目录执行（即 book.json 所在目录)
+
+
 #### 那些年，我遇到的坑
 * 因为四个空格后是引用，此第一级的列表前不要打四个空格。否则在 * GitBook Editor* 中没有问题，但到了 *gitbook.io* 链接会显示源码，而不会正确的展示。
 * `{% raw %} {% endraw %}` 似乎不起作用
