@@ -3,6 +3,7 @@
 #### 快速参考
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Mastering Markdown - Examples](https://guides.github.com/features/mastering-markdown/)
+* [为项目编写Readme.MD文件](http://blog.csdn.net/fenglailea/article/details/45562855). 有示例
 
 #### 基本语法
 
