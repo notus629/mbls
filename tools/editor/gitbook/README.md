@@ -13,7 +13,7 @@
 1. 修改 **book.json** 文件，加入 *new-flowchart* 插件。
 ```
 {
-    "plugins" : ["new-flowchart"]
+    "plugins" : ["new-flowchart", "katex"]
 }
 ```
 2. 执行 `gitbook install` 命令，安装所有插件. 注意: 如同 git 命令一样, git install 也需要在该 book 的当前目录执行（即 book.json 所在目录)
