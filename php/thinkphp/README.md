@@ -12,6 +12,7 @@ echo 'hi, leo';
 
 int main(){
   printf("Hello World!");
+  int a;
   return 1;
 }
 {%endace%}
