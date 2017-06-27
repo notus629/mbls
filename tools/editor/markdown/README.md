@@ -41,11 +41,11 @@ Markdown 语法速查表
 代码  
 `<hello world>`  
 代码块高亮  
-```ruby  
-  def add(a, b)  
+
+    def add(a, b)  
     return a + b  
   end  
-''' 
+
 表格  
   表头  | 表头  
   ------------- | -------------  
