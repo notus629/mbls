@@ -17,6 +17,8 @@
     * [Nginx](server/nginx/README.md)
     * [Apache](server/apache/README.md)
 * [工具](tools/README.md)
+    * [编辑器&IDE](tools/editor/README.md)
+        * [GitBook](tools/editor/gitbook/README.md)
 * [附录](appendix/README.md)
     * [项目](appendix/projects/README.md)
     * [学习参考](appendix/learningRef/README.md)
