@@ -45,6 +45,7 @@
 
 1. Mac下的数据库设计工具 Workbench http://www.cnblogs.com/ghj1976/archive/2013/01/15/2860912.html
 
+1. Mac 下的数据库设计软件？https://ruby-china.org/topics/25419
 
 
 
