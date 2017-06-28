@@ -50,7 +50,10 @@
 update user set host='%' where user = 'root';
 ```
 
+3. 若使用了 vagrant, 需要修改虚拟机的网络配置，改为静态 IP
+```
 
+```
 
 
 
