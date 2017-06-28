@@ -35,6 +35,7 @@ namespace Symfony\Component\HttpFoundation;
 ```php
 <?php
 // 注意：若类名前面若省略 \ 符号，则表示相对与当前所在的命名空间
+//  -（或导入的命名空间?)
 $response = new \Symfony\Component\HttpFoundation\Response('Oops', 400);
 $response->send();
 ```
