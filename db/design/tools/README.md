@@ -8,13 +8,15 @@
 
 #### Power Designer
 
-简称 PD, SAP, Sybase 公司, 最强大，普及度比较好。
+* 简称 PD, SAP, Sybase 公司, 最强大，普及度比较好。
 
-可以支持业务模型，逻辑模型和物理模型的建模，支持各种数据库厂商的各代产品，非常强大和丰富。收费。
+* 可以支持业务模型，逻辑模型和物理模型的建模，支持各种数据库厂商的各代产品，非常强大和丰富。收费。
+
+* 不支持 Mac
 
 #### [Workbench](https://www.oschina.net/p/mysql+workbench)
 
-MySQL 自带
+MySQL 自带工具，支持 Mac
 
 #### 其他工具
 
@@ -40,6 +42,8 @@ MySQL 自带
 
 #### 参考
 1. 数据库设计工具有哪些？  https://www.zhihu.com/question/19579837
+
+1. Mac下的数据库设计工具 Workbench http://www.cnblogs.com/ghj1976/archive/2013/01/15/2860912.html
 
 
 
