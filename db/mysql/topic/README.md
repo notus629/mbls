@@ -45,7 +45,7 @@
 
 1. 打开 MySQL 配置文件，修改监听地址为 `bind-address=0.0.0.0`，即监听所有地址。
 
-2. 修改 root 用户的权限（若采用 root 用户来远程连接），使之能从任意主机连接。(利用 MySQL 自带客户端在本机连接到 MySQL 服务器，选择 mysql 数据库)。
+2. 修改 root 用户的权限（若采用 root 用户来远程连接），使之能从任意主机连接。(利用 MySQL 自带命令行客户端在本机连接到 MySQL 服务器，选择 mysql 数据库)。
 ```
 update user set host='%' where user = 'root';
 ```
