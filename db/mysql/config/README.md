@@ -66,6 +66,11 @@
 +-----------+------+
 > update user set host='%' where user = 'root'; 
 ```
+
+* 使用 grant 命令修改 root 权限，使之能从任意地址访问
+```
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
+```
     
 
 
