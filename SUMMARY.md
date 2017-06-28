@@ -15,6 +15,7 @@
 * [数据库](db/README.md)
   * [MySQL](db/mysql/README.md)
     * [配置](db/mysql/config/README.md)
+    * [专题](db/mysql/topic/README.md)
   * [Redis](db/redis/README.md)
   * [Memcached](db/memcached/README.md)
   * [数据库设计](db/design/README.md)
