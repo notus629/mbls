@@ -22,6 +22,8 @@
 * 通常为 
 > /etc/mysql/my.cnf
 
+#### MacOS
+
 
 
 
