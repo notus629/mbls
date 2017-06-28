@@ -29,9 +29,9 @@
         !includedir /etc/mysql/conf.d/
         !includedir /etc/mysql/mysql.conf.d/
         ```
-    1. `conf.d` 中包含 `/etc/mysql/conf.d/mysql.cnf`
+    1. `conf.d` 中包含 `/etc/mysql/conf.d/mysql.cnf`. 即 MySQL 客户端配置文件。
     
-    1. `mysql.conf.d` 中包含 `/etc/mysql/mysql.conf.d/mysqld.cnf`
+    1. `mysql.conf.d` 中包含 `/etc/mysql/mysql.conf.d/mysqld.cnf`. 即 MySQL 服务器端配置文件。
     
 #### MacOS
 
