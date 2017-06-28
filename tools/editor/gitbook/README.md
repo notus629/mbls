@@ -52,6 +52,11 @@ $ gitbook serve
 1. 对于 GitBook.com 在线编辑器以及 Mac OS X 版的 GitBook Editor，都不能正确的预览插件的效果（如 ace 插件，其它插件没有尝试）。但插件的效果能在在线的 book 和本地的 web 版中正确的显示。
 
 1. 原生的代码高亮中不能有空行，否则判定代码高亮结束。
+
+1. 对于标题的 id，可以查看网页源码。特殊的举例
+    * Power Designer -> power-designer
+    * Workbench -> workbench
+    * 中文 -> 中文
     
     
     
