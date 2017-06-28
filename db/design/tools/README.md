@@ -8,7 +8,7 @@
 
 #### Workbench
 
-MySQL 自带[4]
+(MySQL 自带)[https://www.oschina.net/p/mysql+workbench]
 
 #### 其它
 
@@ -37,7 +37,7 @@ MySQL 自带[4]
     [1] 数据库设计工具有哪些？  https://www.zhihu.com/question/19579837
     [2] http://www.vertabelo.com/
     [3] https://chrome.google.com/webstore/detail/vertabelo/kgoiecbcpnodglnehemdbnkdmelhonec?utm_source=chrome-ntp-icon
-    [4] [workbench 介绍](https://www.oschina.net/p/mysql+workbench)
+    [4] [workbench 介绍] )
 
 
 
