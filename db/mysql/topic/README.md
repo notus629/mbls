@@ -43,6 +43,13 @@
 
 需要修改两处（对于 Vagrant 虚拟机，还要第三步）
 
+1. 打开 MySQL 配置文件，修改为 `bind-address=0.0.0.0`，即监听所有地址。
+
+2. 修改 root 用户的权限（若采用 root 用户来远程连接），使之能从任意主机连接。(利用 MySQL 自带客户端连接，选择 mysql 数据库。
+```
+update user set host='%' where user = 'root';
+```
+
 
 
 
