@@ -61,7 +61,20 @@ $r = new Res('Oops', 400);
 $r->send();
 ```
 
+* 导入函数： 
+```php 
+<?php
+use func Namespace\functionName;
+//
+functionName();
+```
 
+* 导入常量
+```php
+<?php
+use constant Namespace\CONST_NAME;
+//
+echo CONST_NAME;
 
 
 
