@@ -32,6 +32,8 @@
     * [PHPStorm](tools/editor/phpstorm/README.md)
   * [数据库工具](tools/db/README.md)
     * [MySQL Workbench](tools/db/workbench/README.md)
+  * [虚拟化工具](tools/virtual/README.md)
+    * [Vagrant](tools/virtual/vagrant/README.md)
 * [附录](appendix/README.md)
   * [项目实战](appendix/projects/README.md)
     * [bgcms](appendix/projects/bgcms/README.md)
