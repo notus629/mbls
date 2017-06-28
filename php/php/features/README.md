@@ -75,6 +75,7 @@ functionName();
 use constant Namespace\CONST_NAME;
 //
 echo CONST_NAME;
+```
 
 
 
