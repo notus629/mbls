@@ -53,7 +53,7 @@
 
 * 用户的相关信息在 mysql 数据库的 user 表中. 
 
-    查看 root 用户信息
+    查看 root 用户信息, 修改 root 使之能从其它机器访问数据库。
 ```
 > use mysql;
 > select host,user from user where user = 'root';
@@ -62,6 +62,7 @@
 +-----------+------+
 | localhost | root |
 +-----------+------+
+> update user set host='%' where user = 'root'; 
 ```
     
 
