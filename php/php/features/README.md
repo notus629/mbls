@@ -43,6 +43,10 @@ $response->send();
 * 示例2：使用命名空间和默认的别名
 ```php
 <?php
+// 建议
+//    1. use 放在顶部，namespace 之后
+//    2. use 导入代码时无需在开头加上 \ 符号，因为 PHP 假定导入的是完全限定的命名空间。
+//    3. use 必须出现在全局作用域（不能在类或函数中）
 use Symfony\Component\HttpFoundation\Response;
 $response = new Response('Oops', 400);
 $response->send();
