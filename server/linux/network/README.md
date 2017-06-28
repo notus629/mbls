@@ -9,7 +9,7 @@
 
 Ubuntu 防火墙为 iptables (Ubuntu16.04 默认有装）, 默认允许所有的流量.
 
-```shell
+```
 $ iptables -L
 ```
 
