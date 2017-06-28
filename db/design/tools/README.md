@@ -2,8 +2,8 @@
 
 >目录
 * [Power Designer](#Power Designer)
-* [Workbench](#Workbench]
-* [其他工具](#其他工具]
+* [Workbench](#Workbench)
+* [其他工具](#其他工具)
 * [参考](#参考)
 
 #### Power Designer
