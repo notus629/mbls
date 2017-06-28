@@ -52,6 +52,14 @@ $response = new Response('Oops', 400);
 $response->send();
 ```
 
+* 示例3：使用命名空间，并自定义别名
+```php
+<?php
+use Symfony\Component]HttpFoundation\Response as Res;
+
+$r = new Res('Oops', 400);
+$r->send();
+```
 
 
 
