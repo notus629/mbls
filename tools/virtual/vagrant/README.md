@@ -6,6 +6,11 @@
 
 #### Vagrantfile
 
+配置表 
+
+命令 | 说明
+--- | ---
+`config.vm.network "forwarded_port", guest: 3306, host: 3306` | Port Forwarding
 
 
 #### 参考
