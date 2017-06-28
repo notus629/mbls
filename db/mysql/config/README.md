@@ -22,7 +22,8 @@
 * 通常为 
 > /etc/mysql/my.cnf
 
-* 举例 (Ubuntu 16.04, )
+* 举例 (Ubuntu 16.04, MySQL 5.7.18)
+    * `/etc/mysql/my.cnf
 
 #### MacOS
 
