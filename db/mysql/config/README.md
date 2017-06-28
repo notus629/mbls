@@ -35,7 +35,7 @@
     
     1. `mysql.conf.d` 中包含 `/etc/mysql/mysql.conf.d/mysqld.cnf`. 即 MySQL 服务器端配置文件。
     
-#### MacOS
+##### MacOS
 
 待完善。
 
