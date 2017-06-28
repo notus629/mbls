@@ -32,8 +32,10 @@ namespace Symfony\Component\HttpFoundation;
 **创建别名**，是指告诉 PHP 我要使用简单的名称引入导入的类、接口、函数或常量。
 
 ```php
-// 
-
+// 使用命名空间和默认的别名
+use Symfony\Component\HttpFoundation\Response;
+$response = new Response('Oops', 400);
+$response->send();
 ```
 
 
