@@ -2,9 +2,9 @@
 
 > 目录
 * [配置文件](#配置文件)
-    *[Windows](#windows)
-    *[Linux](#linux)
-    *[MacOS](#macos)
+    * [Windows](#windows)
+    * [Linux](#linux)
+    * [MacOS](#macos)
 
 
 #### 配置文件
