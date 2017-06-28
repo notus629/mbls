@@ -1,7 +1,6 @@
 ### PHPStorm
 
-#### 目录
-
+> 目录
 * [常用快捷键](#常用快捷键)
     * [MAC OS 快捷键](#MAC OS 快捷键)
     * [Windows 快捷键](#Windows 快捷键)
