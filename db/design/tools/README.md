@@ -8,7 +8,7 @@
 
 #### Workbench
 
-(MySQL 自带)[https://www.oschina.net/p/mysql+workbench]
+(MySQL 自带) [https://www.oschina.net/p/mysql+workbench]
 
 #### 其它
 
