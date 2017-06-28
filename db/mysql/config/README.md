@@ -5,6 +5,8 @@
     * [Windows](#windows)
     * [Linux](#linux)
     * [MacOS](#macos)
+* [用户权限](#用户权限)
+
 
 
 #### 配置文件
@@ -35,6 +37,8 @@
     
 #### MacOS
 
+### 用户权限
+* MySQL 5.7.18 安装后默认有 4 个数据库
 
 
 
