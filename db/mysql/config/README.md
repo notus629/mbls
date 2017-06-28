@@ -29,7 +29,9 @@
         !includedir /etc/mysql/conf.d/
         !includedir /etc/mysql/mysql.conf.d/
         ```
-    1. 配置文件
+    1. `conf.d` 中包含 `/etc/mysql/conf.d/mysql.cnf`
+    
+    1. `mysql.conf.d` 中包含 `/etc/mysql/mysql.conf.d/mysqld.cnf`
     
 #### MacOS
 
