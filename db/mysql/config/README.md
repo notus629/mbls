@@ -38,10 +38,31 @@
 #### MacOS
 
 ### 用户权限
-* MySQL 5.7.18 安装后默认有 4 个数据库
+* MySQL 5.7.18 安装后, 默认有 4 个数据库
+```
+> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+```
 
+* 用户的相关信息在 mysql 数据库的 user 表中. 
 
-
+    查看 root 用户信息
+```
+> use mysql;
+> select host,user from user where user = 'root';
++-----------+------+
+| host      | user |
++-----------+------+
+| localhost | root |
++-----------+------+
+```
     
 
 
