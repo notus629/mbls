@@ -8,7 +8,7 @@
 
 #### Workbench
 
-MySQL 自带的[4]
+MySQL 自带[4]
 
 #### 其它
 
@@ -27,21 +27,12 @@ MySQL 自带的[4]
     * visio 画 E-R, **E-R Studio** 建立模型，直接生成到 DB
 
 
-* Web 版（收费？）
+* Web 版（收费？）*Vertabelo* [2] 
 
-        Vertabelo [2] 
-
-
-    Chrome 应用 [3]
-
-        Vertabelo
+* Chrome 应用: Vertabelo[3]
 
 
-
-
-
-
-References
+#### 参考
 
     [1] 数据库设计工具有哪些？  https://www.zhihu.com/question/19579837
     [2] http://www.vertabelo.com/
