@@ -11,4 +11,4 @@
 
 
 #### 参考
-1. MySQL Workbench Tutorial https://www.youtube.com/watch?v=X_umYKqKaF0
+1. MySQL Workbench Tutorial. https://www.youtube.com/watch?v=X_umYKqKaF0
