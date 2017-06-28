@@ -39,6 +39,8 @@
 
 ####连接远程 MySQL 服务器
 
+默认安装的 MySQL 服务，根用户 root 只能从本机连接，且 MySQL 只监听本机地址(bind-address=127.0.0.1)
+
 
 
 
