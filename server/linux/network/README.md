@@ -16,4 +16,4 @@ $ sudo iptables -L
 ```
 
 ##### 参考
-[1] 在Ubuntu Server是配置iptables防火墙. http://www.jb51.net/os/Ubuntu/45291.html
+[1] 在Ubuntu Server中配置iptables防火墙. http://www.jb51.net/os/Ubuntu/45291.html
