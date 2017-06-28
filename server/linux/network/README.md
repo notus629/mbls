@@ -9,7 +9,9 @@
 ##### Ubuntu
 
 Ubuntu 防火墙为 iptables (Ubuntu16.04 默认有装）, 默认允许所有的流量.
+
 * 列出当前 iptables 中所有规则
+
 ```
 $ iptables -L
 ```
