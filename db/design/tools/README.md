@@ -1,8 +1,8 @@
 ### 数据库设计工具
 
 >目录
-* [Power Designer](#PowerDesigner)
-* [Workbench](#Workbench)
+* [Power Designer](#power-designer)
+* [Workbench](#workbench)
 * [其他工具](#其他工具)
 * [参考](#参考)
 
