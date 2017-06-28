@@ -16,7 +16,7 @@
 
 #### [Workbench](https://www.oschina.net/p/mysql+workbench)
 
-MySQL 自带工具，支持 Mac
+MySQL 自带工具，支持 Mac [2]
 
 #### 其他工具
 
