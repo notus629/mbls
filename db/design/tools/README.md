@@ -6,9 +6,9 @@
 
 可以支持业务模型，逻辑模型和物理模型的建模，支持各种数据库厂商的各代产品，非常强大和丰富。收费。
 
-#### Workbench
+#### [Workbench](https://www.oschina.net/p/mysql+workbench)
 
-(MySQL 自带) [https://www.oschina.net/p/mysql+workbench]
+MySQL 自带
 
 #### 其它
 
