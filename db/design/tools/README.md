@@ -10,26 +10,24 @@
 
 MySQL 自带的[4]
 
-    SQL Server 也有自带
+#### 其它
+
+* SQL Server 自带工具
+
+* *ER Studio*. Embarcadero公司, 收费。        
+
+* *ERWin*
+
+* *SI Object Browser ER*
+
+* *modelright*
+
+* 原始搞法
+    * 白纸画 E-R， 然后做 Excel 表
+    * visio 画 E-R, **E-R Studio** 建立模型，直接生成到 DB
 
 
-    ER Studio    Embarcadero公司, 收费。        
-
-
-
-其它
-
-    ERWin, SI Object Browser ER, modelright
-
-
-    最原始搞法：
-
-        白纸画 E-R， 然后做 Excel 表
-
-        visio 画 E-R, E-R Studio 建立模型，直接生成到 DB
-
-
-    Web 版（收费？）
+* Web 版（收费？）
 
         Vertabelo [2] 
 
