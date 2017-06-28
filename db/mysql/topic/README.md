@@ -19,7 +19,7 @@
 +--------------------+
 ```
 
-* 查看 root 用户信息
+* 查看 root 用户信息，修改 root 权限，使之能从任意主机访问。
 ```
 > use mysql;
 > select host,user from user where user = 'root';
