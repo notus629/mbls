@@ -14,7 +14,6 @@
 ```
 
 * `find` 仅选取一行结果，是二维数组，其结果举例如下 
-
 ```php
 Array
 (
@@ -28,7 +27,7 @@ Array
 ```
 
 * `select` 选取所有结果，虽然可以限制其结果的行数，但结果是三维数组，结果举例如下
-```
+```php
 Array
 (
     [password] => $2y$12$22MclhPTdYEAoDqJAG/AjOnCEdMsNjLcEZssSrjevQVbj6TAzNjxi
