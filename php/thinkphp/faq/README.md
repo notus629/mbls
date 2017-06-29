@@ -12,3 +12,5 @@
 FILE: /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/ThinkPHP/Library/Think/Db.class.php 　LINE: 42
 TRACE
 ```
+
+错误原因
