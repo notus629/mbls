@@ -110,7 +110,83 @@ interface Documentable
 }
 ```
 
-* 定义 `` 类，实现了 `Documentable` 接口
+* 定义 `HtmlDocument` 类，实现了 `Documentable` 接口
+```php
+<?php
+class HtmlDocument implements Documentable
+{
+    protected $url;
+    public function __construct($url)
+    {
+        $this->url = $url;
+    }
+    public function getId()
+    {
+        return $this->url;
+    }
+    public function getContent()
+    {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $this->url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 3);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+        curl_setopt($ch, CURLOPT_MAXREDIRS, 3);
+        $html = curl_exec($ch);
+        curl_close($ch);
+        return $html;
+    }
+}
+```
+
+* 定义 `StreamDocument` 类，实现 `Documentable` 接口
+```php
+<?php
+class StreamDocument implements Documentable
+{
+    protected $resource;
+    protected $buffer;
+    public function __construct($resource, $buffer = 4096)
+    {
+        $this->resource = $resource;
+        $this->buffer = $buffer;
+    }
+    public function getId()
+    {
+        return 'resource-' . (int)$this->resource;
+    }
+    public function getContent()
+    {
+        $streamContent = '';
+        rewind($this->resource);
+        while (feof($this->resource) === false) {
+            $streamContent .= fread($this->resource, $this->buffer);
+        }
+        return $streamContent;
+    }
+}
+```
+
+* 定义 `CommandOutputDocument` 类，实现 `Documentable` 接口
+```php
+<?php
+class CommandOutputDocument implements Documentable
+{
+    protected $command;
+    public function __construct($command)
+    {
+        $this->command = $command;
+    }
+    public function getId()
+    {
+        return $this->command;
+    }
+    public function getContent()
+    {
+        return shell_exec($this->command);
+    }
+}
+```
 
 
 * `DocumentStore` 类来操作具有统一 `Documentable` 接口的对象
