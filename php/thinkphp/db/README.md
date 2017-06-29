@@ -15,7 +15,7 @@
 
 * `find` 仅选取一行结果，是二维数组，其结果举例如下 
 ```php
-Array
+    Array
 (
     [0] => Array
         (
