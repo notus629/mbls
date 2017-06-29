@@ -1,7 +1,6 @@
 # 前言
 
-我是一个 PHP 程序员.
-
+专注 `PHP` 开发。
 
 ## 本书地址
 * [GitBook 主页](https://www.gitbook.com/book/notus629/mbls/details)
