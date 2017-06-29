@@ -3,6 +3,7 @@
 * [前言](README.md)
 * [PHP](php/README.md)
   * [PHP](php/php/README.md)
+    * [基础](php/php/basic/README.md)
     * [专题](php/php/features/README.md)
   * [Laravel](php/laravel/README.md)
   * [ThinkPHP](php/thinkphp/README.md)
