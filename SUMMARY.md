@@ -7,6 +7,8 @@
     * [PHP 专题](php/php/features/README.md)
   * [Laravel](php/laravel/README.md)
   * [ThinkPHP](php/thinkphp/README.md)
+    * [TP 基础](php/thinkphp/basic/README.md)
+    * [TP 专题](php/thinkphp/topic/README.md)
 * [JavaScript](javascript/README.md)
   * [JavaScript](javascript/javascript/README.md)
     * [JS 库](javascript/javascript/jslib/README.md)
