@@ -90,12 +90,13 @@ echo CONST_NAME;
 
 ##### 参考
 1. "Modern PHP (中文版)"，Josh Lockhart 著，安道译，中国电力出版社，2015. pp12-19.
+2. GitHub: codeguy/modern-php/02-features/interfaces/. https://github.com/codeguy/modern-php/tree/master/02-features/namespaces/
 
 
 #### 接口
 
 ##### 参考
-1. "Modern PHP (中文版)"，Josh Lockhart 著，安道译，中国电力出版社，2015. pp12-19.
+1. "Modern PHP (中文版)"，Josh Lockhart 著，安道译，中国电力出版社，2015. pp19-12.
 2. GitHub: codeguy/modern-php/02-features/interfaces/. https://github.com/codeguy/modern-php/tree/master/02-features/interfaces
 
 
