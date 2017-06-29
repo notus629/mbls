@@ -50,7 +50,7 @@
  
 字段|类型|含义
 ---|---|---
-user_id | `SMALLINT UNSIGNED PRIMARY KEY NOT NULL AUTO_INCREMENT` | 用户 ID, 主键
+id | `SMALLINT UNSIGNED PRIMARY KEY NOT NULL AUTO_INCREMENT` | 用户 ID, 主键
 username | `varchar(20) NOT NULL DEFAULT '' ` | 用户名,索引
 realname | `varchar(50) NOT NULL DEFAULT '' ` | 真实姓名
 email | `varchar(40) DEFAULT '' ` | 
