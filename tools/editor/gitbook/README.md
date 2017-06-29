@@ -43,7 +43,7 @@ $ gitbook serve
 
 ##### ace 插件
 
-* 示例
+* 示例 - PHP 代码
 
 {%ace edit=true, lang='c_cpp'%}
 // This is a hello world program for C.
