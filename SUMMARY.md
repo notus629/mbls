@@ -9,6 +9,7 @@
   * [ThinkPHP](php/thinkphp/README.md)
     * [TP 基础](php/thinkphp/basic/README.md)
     * [TP 专题](php/thinkphp/topic/README.md)
+    * [TP FAQ](php/thinkphp/faq/README.md)
 * [JavaScript](javascript/README.md)
   * [JavaScript](javascript/javascript/README.md)
     * [JS 库](javascript/javascript/jslib/README.md)
