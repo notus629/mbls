@@ -110,7 +110,8 @@ interface Documentable
 }
 ```
 
-*
+* 定义 `` 类，实现了 `Documentable` 接口
+
 
 * `DocumentStore` 类来操作具有统一 `Documentable` 接口的对象
 ```php
@@ -129,6 +130,27 @@ class DocumentStore
         return $this->data;
     }
 }
+```
+
+* 使用 `DocumentStore` 类
+```php
+<?php
+require 'Documentable.php';
+require 'DocumentStore.php';
+require 'HtmlDocument.php';
+require 'StreamDocument.php';
+require 'CommandOutputDocument.php';
+$documentStore = new DocumentStore();
+// Add HTML document
+$htmlDoc = new HtmlDocument('http://php.net');
+$documentStore->addDocument($htmlDoc);
+// Add stream document
+$streamDoc = new StreamDocument(fopen('stream.txt', 'rb'));
+$documentStore->addDocument($streamDoc);
+// Add terminal command document
+$cmdDoc = new CommandOutputDocument('cat /etc/hosts');
+$documentStore->addDocument($cmdDoc);
+print_r($documentStore->getDocuments());
 ```
 
 
