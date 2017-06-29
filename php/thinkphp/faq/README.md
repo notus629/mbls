@@ -13,4 +13,4 @@ FILE: /Users/llos/Documents/bugber/vagr_ngx_ubun16_php5/www/bgbcms/ThinkPHP/Libr
 TRACE
 ```
 
-* 错误原因
+* 错误原因：主要是由于数据库配置不正确导致。
