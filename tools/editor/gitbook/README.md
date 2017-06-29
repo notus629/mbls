@@ -43,6 +43,8 @@ $ gitbook serve
 
 ##### ace 插件
 
+插件呈现的结果在 Web 中可以正常显示，在 GitBook Editor 中无法正确显示。
+
 * 示例 - c++ 代码 
 
 {%ace edit=true, lang='c_cpp'%}
