@@ -53,12 +53,12 @@
 user_id | `SMALLINT UNSIGNED PRIMARY KEY NOT NULL AUTO_INCREMENT` | 用户 ID, 主键
 username | `varchar(20) NOT NULL DEFAULT '' ` | 用户名,索引
 realname | `varchar(50) NOT NULL DEFAULT '' ` | 真实姓名
-email | `varchar(40) DEFAULT '' ` | |
-password | `varchar(32) NOT NULL DEFAULT '' ` | |
-status | `tinyint NOT NULL DEFAULT '1' ` | 是否是有效状态？|
-isadmin | `bool DEFAULT '1'` | 是否为管理员帐户 |
-lastloginip | `varchar(15) DEFAULT '0' ` | 最近一次登录 IP |
-lastlogintime | `int UNSIGNED DEFAULT '0' ` | 最近一次登录时间 |
+email | `varchar(40) DEFAULT '' ` | 
+password | `varchar(32) NOT NULL DEFAULT '' ` | 
+status | `tinyint NOT NULL DEFAULT '1' ` | 是否是有效状态？
+isadmin | `bool DEFAULT '1'` | 是否为管理员帐户 
+lastloginip | `varchar(15) DEFAULT '0' ` | 最近一次登录 IP 
+lastlogintime | `int UNSIGNED DEFAULT '0' ` | 最近一次登录时间 
 
 
 #### 功能模块
