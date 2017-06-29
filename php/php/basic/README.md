@@ -31,6 +31,6 @@
 **DB_NAME** |	// 设置数据库名`"DB_NAME" => "thinkphp"` 
 **DB_PORT** |	// 数据库的端口号，一般可省 `"DB_PORT" => "3306"` 
 **DB_PREFIX** | // 表前缀 `"DB_PREFIX" => "tp_"` 
-**DB_PWD** |	// 数据库的密码 `"DB_PWD" => ""
+**DB_PWD** |	// 数据库的密码 `"DB_PWD" => ""`
 **DB_TYPE** |	// 设置数据库类型 `"DB_TYPE" => "mysql"` 
 **DB_USER** | // 数据库的用户名 `"DB_USER" => "root"` 
