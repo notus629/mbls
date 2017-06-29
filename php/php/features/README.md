@@ -109,7 +109,27 @@ interface Documentable
     public function getContent();
 }
 ```
-* 
+
+*
+
+* `DocumentStore` 类来操作具有统一 `Documentable` 接口的对象
+```php
+<?php
+class DocumentStore
+{
+    protected $data = [];
+    public function addDocument(Documentable $document)
+    {
+        $key = $document->getId();
+        $value = $document->getContent();
+        $this->data[$key] = $value;
+    }
+    public function getDocuments()
+    {
+        return $this->data;
+    }
+}
+```
 
 
 ##### 参考
