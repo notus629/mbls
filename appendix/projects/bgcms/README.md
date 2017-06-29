@@ -42,10 +42,20 @@
 * **推荐位标识表**
 * **推荐位内容表**
 
- 后台用户表
+ 
+###### 后台用户表
  
 字段|类型|含义
 ---|---|---
+user_id | `SMALLINT UNSIGNED PRIMARY KEY NOT NULL AUTO_INCREMENT` | 主键 ID
+username | `varchar(20) NOT NULL DEFAULT ''` | 用户名
+realname | `varchar(50) NOT NULL DEFAULT '' ` | 真实姓名
+email | `varchar(50) DEFAULT '' ` | 
+password | |
+status | |
+lastloginip |
+lastlogintime | 
+
 
 #### 功能模块
 
