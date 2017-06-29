@@ -23,7 +23,7 @@ URL_CASE_INSENSITIVE | // URL 地址不区分大小写 `'URL_CASE_INSENSITIVE' =
 
 ##### 数据库配置
 
-在 `config.php` 中配置
+在 `config.php` 中配置, [[参考](https://www.kancloud.cn/manual/thinkphp/1731)]
 
 名称 | 解释 
 --- | --- |
