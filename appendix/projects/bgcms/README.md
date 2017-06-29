@@ -54,9 +54,10 @@ username | `varchar(20) NOT NULL DEFAULT '' ` | 用户名,索引
 realname | `varchar(50) NOT NULL DEFAULT '' ` | 真实姓名
 email | `varchar(40) DEFAULT '' ` | |
 password | `varchar(32) NOT NULL DEFAULT '' ` | |
-status | `tinyint NOT NULL DEFAULT 1 ` | |
-lastloginip | | |
-lastlogintime | | |
+status | `tinyint NOT NULL DEFAULT '1' ` | |
+isadmin | `` | 是否为管理员帐户 |
+lastloginip | `varchar(15) DEFAULT '0' ` | |
+lastlogintime | `int UNSIGNED DEFAULT '0' ` | |
 
 
 #### 功能模块
