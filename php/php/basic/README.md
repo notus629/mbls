@@ -16,7 +16,7 @@
 
 配置项 | 说明
 --- | ---
-**LOAD_EXT_CONFIG** | // 加载扩展配置文件 `'LOAD_EXT_CONFIG' => 'user,db'`
+**LOAD_EXT_CONFIG** | // 加载扩展配置文件 `'LOAD_EXT_CONFIG' => 'user,db'` [参考](https://www.kancloud.cn/manual/thinkphp/1693)
 
 ##### 数据库配置
 
