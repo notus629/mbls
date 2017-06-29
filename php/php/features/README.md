@@ -99,6 +99,17 @@ echo CONST_NAME;
 ##### 示例
 定义一个接口 Documentable, 然后三个对象实现此接口，形成一致的操作。
 
+* 定义 `Documentable` 接口
+```php
+<?php
+interface Documentable
+{
+    public function getId();
+    public function getContent();
+}
+```
+* 
+
 
 ##### 参考
 1. "Modern PHP (中文版)"，Josh Lockhart 著，安道译，中国电力出版社，2015. pp19-22.
