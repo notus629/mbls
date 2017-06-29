@@ -10,8 +10,7 @@
     $db->where("id=2")->field('username, password')->find();
 ```
 
-* `find` 仅选取一行结果，是二维数组，其结果举例如下
-
+* `find` 仅选取一行结果，是二维数组，其结果举例如下 
 ```
 Array
 (
