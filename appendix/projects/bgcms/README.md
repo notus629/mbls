@@ -50,7 +50,7 @@
 user_id | `SMALLINT UNSIGNED PRIMARY KEY NOT NULL AUTO_INCREMENT` | 主键 ID
 username | `varchar(20) NOT NULL DEFAULT ''` | 用户名
 realname | `varchar(50) NOT NULL DEFAULT '' ` | 真实姓名
-email | `varchar(50) DEFAULT '' ` | 
+email | `varchar(50) DEFAULT '' ` | |
 password | |
 status | |
 lastloginip |
