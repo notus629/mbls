@@ -56,8 +56,8 @@ email | `varchar(40) DEFAULT '' ` | |
 password | `varchar(32) NOT NULL DEFAULT '' ` | |
 status | `tinyint NOT NULL DEFAULT '1' ` | 是否是有效状态？|
 isadmin | `bool DEFAULT '1'` | 是否为管理员帐户 |
-lastloginip | `varchar(15) DEFAULT '0' ` | |
-lastlogintime | `int UNSIGNED DEFAULT '0' ` | |
+lastloginip | `varchar(15) DEFAULT '0' ` | 最近一次登录 IP |
+lastlogintime | `int UNSIGNED DEFAULT '0' ` | 最近一次登录时间 |
 
 
 #### 功能模块
