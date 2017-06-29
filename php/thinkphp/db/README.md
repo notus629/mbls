@@ -18,6 +18,18 @@
 ```php
 Array
 (
+    [password] => $2y$12$22MclhPTdYEAoDqJAG/AjOnCEdMsNjLcEZssSrjevQVbj6TAzNjxi
+    [status] => 1
+)
+```
+
+
+
+* `select` 选取所有结果，虽然可以限制其结果的行数，但结果是三维数组，结果举例如下
+
+```php
+Array
+(
     [0] => Array
         (
             [password] => $2y$12$22MclhPTdYEAoDqJAG/AjOnCEdMsNjLcEZssSrjevQVbj6TAzNjxi
@@ -27,15 +39,7 @@ Array
 )
 ```
 
-* `select` 选取所有结果，虽然可以限制其结果的行数，但结果是三维数组，结果举例如下
 
-```php
-Array
-(
-    [password] => $2y$12$22MclhPTdYEAoDqJAG/AjOnCEdMsNjLcEZssSrjevQVbj6TAzNjxi
-    [status] => 1
-)
-```
 
 * `getField` 根据字段查询结果，其结果维数不确定，对于`getField('username, password, status')`,其结如下
 
