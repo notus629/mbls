@@ -1,19 +1,7 @@
 ## ThinkPHP
 
-```php
-<?php
-echo 'hi, leo';
-?>
-```
+> 目录
+* [手册](#手册)
 
-{%ace edit=true, lang='c_cpp'%}
-// This is a hello world program for C.
-#include <stdio.h>
 
-int main(){
-  printf("Hello World!");
-  int a;
-  return 1;
-}
-{%endace%}
 

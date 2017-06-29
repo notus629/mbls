@@ -41,6 +41,22 @@ $ gitbook serve
 * *[new-flowchart](https://plugins.gitbook.com/plugin/new-flowchart)*. 利用 *flow.js* 画流程图插件。
 * *[sunlight-highlighter](https://plugins.gitbook.com/plugin/sunlight-highlighter)*. 代码高亮插件 *Sunlight highlighter*.
 
+##### ace 插件
+
+示例
+
+{%ace edit=true, lang='c_cpp'%}
+// This is a hello world program for C.
+#include <stdio.h>
+
+int main(){
+  printf("Hello World!");
+  int a;
+  return 1;
+}
+{%endace%}
+
+
 
 #### 那些年，我所遇到的坑
 1. 因为四个空格后是引用，此第一级的列表前不要打四个空格。否则在 * GitBook Editor* 中没有问题，但到了 *gitbook.io* 链接会显示源码，而不会正确的展示。
