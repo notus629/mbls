@@ -19,7 +19,7 @@
 配置项 | 说明
 --- | ---
 **LOAD_EXT_CONFIG** | // 加载扩展配置文件 `'LOAD_EXT_CONFIG' => 'user,db'` [[参考](https://www.kancloud.cn/manual/thinkphp/1693)]
-URL_CASE_INSENSITIVE | // URL 地址不区分大小写 `'URL_CASE_INSENSITIVE' =>true`
+**URL_CASE_INSENSITIVE** | // URL 地址不区分大小写 `'URL_CASE_INSENSITIVE' =>true`
 
 ##### 数据库配置
 
