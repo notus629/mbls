@@ -88,15 +88,15 @@ echo CONST_NAME;
 
 如，命名空间中（非全局命名空间）中引用全局命名空间的代码时，要在类、接口、函数或常量的名称最前面加上 `\` 符号。
 
-##### 参考文献
+##### 参考
 1. "Modern PHP (中文版)"，Josh Lockhart 著，安道译，中国电力出版社，2015. pp12-19.
 
 
 #### 接口
 
-
-
-
+##### 参考
+1. "Modern PHP (中文版)"，Josh Lockhart 著，安道译，中国电力出版社，2015. pp12-19.
+2. GitHub: codeguy/modern-php/02-features/interfaces/. https://github.com/codeguy/modern-php/tree/master/02-features/interfaces
 
 
 
