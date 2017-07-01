@@ -21,4 +21,4 @@ WDCP     | WDlinux Control Panel，通过 WEB 控制和管理服务器的 Linux 
 傲梅分区助手 | 免费、专业级的磁盘分区工具，可以随意扩大、缩小、合并分区
 
 ## 工具站点
-微软原版软件最全收集的网站（提供下载）http://msdn.itellyou.cn/?buroxo=pi5kc3
+1. 微软原版软件最全收集的网站（提供下载）http://msdn.itellyou.cn/?buroxo=pi5kc3
