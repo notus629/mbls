@@ -9,4 +9,4 @@
 --- | ---
 EasyBCD  | 收费，各种双系统启动都能编辑
 emeditor | 收费，简单 web/php 编辑器，可以方便选择编码和换行符格式
-GitBook  | 
+GitBook  | 文档管理与发布
