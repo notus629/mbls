@@ -13,3 +13,6 @@ GitBook  | 文档管理与发布
 PuTTY    | 免费开源，Windows 上采用 SSH 连接 Linux 的命令行客户端工具
 Sublime  | 收费，支持 PHP/HTML/CSS/JS 等大多数语言的编辑器，默认 UTF-8 只支持 UTF-8 编码
 UltraISO | 收费，制作 ISO 文件，编辑、记录与制作系统启动、安装盘
+Universal USB Installer	 | 最流行的开源的，制作 U 盘 Linux 系统的工具
+wget     | Linux 开源非交互式命令行工具，用来从 HTTP, HTTPS, FTP 来下载文件
+WinSCP   | 免费, Windows 上采用 SCP 命令向 Linux 上传下载文件的图形界面工具，基于 SSH，（即 SFTP 协议）
