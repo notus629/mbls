@@ -18,7 +18,7 @@ ThinkPHP
 
 * ThinkPHP 5.x, 与 Laravel 较像，大部分公司还未迁移过来
 
-* OneThink    ThinkPHP 3.2 基础上的 CMF （内容管理框架）
+* *OneThink* ThinkPHP 3.2 基础上的 CMF （内容管理框架）
 
 * TwoThink    ThinkPHP 5.0 基础上的 CMF （模仿 OneThink)
 
