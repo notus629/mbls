@@ -18,7 +18,7 @@
   * [Vue.js](javascript/vuejs/README.md)
 * [HTML & CSS](htmlcss/README.md)
   * [BootStrap](htmlcss/bootstrap/README.md)
-    *[SB Admin](htmlcss/bootstrap/sbadmin/README.md)
+    * [SB Admin](htmlcss/bootstrap/sbadmin/README.md)
 * [数据库](db/README.md)
   * [MySQL](db/mysql/README.md)
     * [MySQL 配置](db/mysql/config/README.md)
