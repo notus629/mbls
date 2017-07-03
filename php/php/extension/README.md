@@ -83,6 +83,25 @@ curl_setopt($curlobj, CURLOPT_RETURNTRANSFER, true);
 $output = curl_exec($curlobj);    // 执行
 ```
 
+* CURLOPT_HEADER
+```php
+// 输出中不显示返回的 HTTP 头
+curl_setopt($curlobj, CURLOPT_HEADER, 0); 
+```
+
+* CURLOPT_FOLLOWLOCATION
+```php
+// 是否抓取跳转后的页面
+curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1);
+```
+
+* CURLOPT_TIMEOUT
+```php  
+// 下载超时时间，秒为单位
+curl_setopt($curlobj, CURLOPT_TIMEOUT, 300);
+```
+
+
 ##### 参考
 1. http://php.net/manual/en/book.curl.php
 
