@@ -76,7 +76,11 @@ curl_setopt($ch, CURLOPT_URL, "http://www.baidu.com");
 curl_setopt($curlobj, CURLOPT_URL, "http://www.baidu.com");
 ```
 
-CURLOPT_RETURNTRANSFER | 默认执行后会打印到终端，此选项可将结果保存（不打印输出） | 
+* CURLOPT_RETURNTRANSFER
+```php
+// 默认执行后会打印到终端，此选项可将结果保存（不打印输出） 
+
+```
 
 ##### 参考
 1. http://php.net/manual/en/book.curl.php
