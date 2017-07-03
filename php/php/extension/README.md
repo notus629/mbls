@@ -144,7 +144,8 @@ Cookie 相关设置，这部分设置需要在所有会话开始之前设置
 ```php
 // 使用 Cookie 时，必须先设置时区
 date_default_timezone_set('PRC'); 
-     // 让 cURL 在本地支持 cookie(session)
+
+// 让 cURL 在本地支持 cookie(session)
 curl_setopt($curlobj, CURLOPT_COOKIESESSION, TRUE);
 // cookie 在本地保存的位置, 读取
     curl_setopt($curlobj, CURLOPT_COOKIEFILE, 'cookiefile');
