@@ -5,6 +5,7 @@
   * [PHP](php/php/README.md)
     * [PHP 基础](php/php/basic/README.md)
     * [PHP 专题](php/php/features/README.md)
+    * [PHP 扩展](php/php/extension/README.md)
   * [Laravel](php/laravel/README.md)
   * [ThinkPHP](php/thinkphp/README.md)
     * [TP 基础](php/thinkphp/basic/README.md)
