@@ -6,6 +6,7 @@
     * [安装](#安装)
     * [基本步骤](#基本步骤)
     * [curl_setopt](#curl_setopt)
+        *[基本选项参数](#基本选项参数)
     * [参考](#参考)
 
 
@@ -67,7 +68,7 @@ curl_setopt($ch, CURLOPT_URL, "http://www.baidu.com");
 
 ```
 
-* 基本选项参数
+###### 基本选项参数
 
 
 
