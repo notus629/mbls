@@ -111,12 +111,30 @@ curl_setopt($curlobj, CURLOPT_POST, 1);
 * CURLOPT_POSTFIELDS
 ```php
 // POST 的数据部分
-// 多个参数 'theCityCode=北京&&theUserID=leo'
+// 多个参数: 'theCityCode=北京&&theUserID=leo'
 $data = 'theCityName=北京'; 
 curl_setopt($curlobj, CURLOPT_POSTFIELDS, $data);
 ```
 
+###### HTTP 请求头
 
+* CURLOPT_HTTPHEADER
+```php
+// 包装 http 请求头
+// 不设置，请求也会自动生成头部信息，不影响请求数据
+curl_setopt($curlobj, CURLOPT_HTTPHEADER, [
+"application/x-www-form-urlencoded;charset=utf-8", 
+"Content-length: ".strlen($data)
+]);
+```
+
+* CURLOPT_USERAGENT
+```php
+// 设置 HTTP 请求头中的 User-Agent 字段
+// 也可以直接在 CURLOPT_HTTPHEADER 中设置
+// 未设置会出现 “未将对象引用设置到对象的实例” 的错误
+curl_setopt($curlobj, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
+```
 
 ##### 参考
 1. http://php.net/manual/en/book.curl.php
