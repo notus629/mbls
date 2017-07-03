@@ -72,8 +72,7 @@ curl_setopt($ch, CURLOPT_URL, "http://www.baidu.com");
 
 参数     |     说明    | 示例
 ---      |    ---     | ---
-CURL_OPT | 设置网页的 URL 地址. 网页 URL 也可以在 `curl_init("http://www.baidu.com");` 中设置
-| `curl_setopt($curlobj, CURLOPT_URL, "http://www.baidu.com"); `
+CURL_OPT | 设置网页的 URL 地址. 网页 URL 也可以在 `curl_init("http://www.baidu.com");` 中设置 | `curl_setopt($curlobj, CURLOPT_URL, "http://www.baidu.com"); `
 
 
 ##### 参考
