@@ -138,6 +138,22 @@ curl_setopt($curlobj, CURLOPT_HTTPHEADER, [
 curl_setopt($curlobj, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
 ```
 
+###### Cookie 相关设置
+Cookie 相关设置，这部分设置需要在所有会话开始之前设置
+
+```php
+// 使用 Cookie 时，必须先设置时区
+date_default_timezone_set('PRC'); 
+     // 让 cURL 在本地支持 cookie(session)
+curl_setopt($curlobj, CURLOPT_COOKIESESSION, TRUE);
+// cookie 在本地保存的位置, 读取
+    curl_setopt($curlobj, CURLOPT_COOKIEFILE, 'cookiefile');
+// 存储文件
+    curl_setopt($curlobj, CURLOPT_COOKIEJAR, 'cookiefile');
+// cookie 里存的内容
+    curl_setopt($curlobj, CURLOPT_COOKIE, session_name().'='.session_id());
+```
+
 ##### 参考
 1. http://php.net/manual/en/book.curl.php
 
