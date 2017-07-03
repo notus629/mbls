@@ -60,12 +60,15 @@ curl_close($ch);
 
 ```php
 // 设置网页的 URL
-// 参数 1： $curlobj 为 cURL 资源
+// 参数 1： $ch 为 cURL 资源
 // 参数 2： CURLOPT_URL，为对应的选项名称
 // 参数 3： 选项的对应值
-        curl_setopt($curlobj, CURLOPT_URL, "http://www.baidu.com");
+curl_setopt($ch, CURLOPT_URL, "http://www.baidu.com");
 
 ```
+
+* 基本选项参数
+
 
 
 ##### 参考
