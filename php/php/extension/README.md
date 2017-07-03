@@ -2,7 +2,7 @@
 
 > 目录
 
-* [CURL](#curl)
+* [cURL](#curl)
 
 
 #### cURL
