@@ -79,6 +79,8 @@ curl_setopt($curlobj, CURLOPT_URL, "http://www.baidu.com");
 * CURLOPT_RETURNTRANSFER
 ```php
 // 默认执行后会打印到终端，此选项可将结果保存（不打印输出） 
+curl_setopt($curlobj, CURLOPT_RETURNTRANSFER, true); 
+$output = curl_exec($curlobj);    // 执行
 ```
 
 ##### 参考
