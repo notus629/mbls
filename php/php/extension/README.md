@@ -5,6 +5,7 @@
 * [cURL](#curl)
     * [安装](#安装)
     * [基本步骤](#基本步骤)
+    * [curl_setopt](#curl_setopt)
     * [参考](#参考)
 
 
@@ -52,6 +53,11 @@ curl_close($ch);
  
 ?>
 ```
+
+##### curl_setopt
+
+
+
 
 ##### 参考
 1. http://php.net/manual/en/book.curl.php
