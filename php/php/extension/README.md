@@ -47,7 +47,7 @@ curl_setopt($ch, CURLOPT_HEADER, 0);
 // 3. 发送请求和接收服务器数据
 curl_exec($ch);
  
-// 4.关闭 cURL 资源，并且释放系统资源 
+// 4. 关闭 cURL 资源，并且释放系统资源 
 curl_close($ch);
  
 ?>
