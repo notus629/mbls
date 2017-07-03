@@ -101,17 +101,20 @@ curl_setopt($curlobj, CURLOPT_TIMEOUT, 300);
 ```
 
 ###### POST 选项
-    CURLOPT_POST
 
-        // 使用 POST 请求
-        curl_setopt($curlobj, CURLOPT_POST, 1);
- 
+* CURLOPT_POST
+```php
+// 使用 POST 请求
+curl_setopt($curlobj, CURLOPT_POST, 1);
+```
 
-    CURLOPT_POSTFIELDS
-
-        // POST 的数据部分
-        $data = 'theCityName=北京'; // 多个参数 'theCityCode=北京&&theUserID=leo'
-        curl_setopt($curlobj, CURLOPT_POSTFIELDS, $data);
+* CURLOPT_POSTFIELDS
+```php
+// POST 的数据部分
+// 多个参数 'theCityCode=北京&&theUserID=leo'
+$data = 'theCityName=北京'; 
+curl_setopt($curlobj, CURLOPT_POSTFIELDS, $data);
+```
 
 
 
