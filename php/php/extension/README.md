@@ -5,6 +5,7 @@
     * [安装](#安装)
     * [基本步骤](#基本步骤)
     * [curl_setopt](#curl_setopt)
+        * [基本示例](# 基本示例)
         * [基本选项参数](#基本选项参数)
     * [参考](#参考)
 
@@ -56,8 +57,7 @@ curl_close($ch);
 
 ##### curl_setopt
 
-* 基本示例
-
+###### 基本示例
 ```php
 // 设置网页的 URL
 // 参数 1： $ch 为 cURL 资源
@@ -99,6 +99,20 @@ curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1);
 // 下载超时时间，秒为单位
 curl_setopt($curlobj, CURLOPT_TIMEOUT, 300);
 ```
+
+###### POST 选项
+    CURLOPT_POST
+
+        // 使用 POST 请求
+        curl_setopt($curlobj, CURLOPT_POST, 1);
+ 
+
+    CURLOPT_POSTFIELDS
+
+        // POST 的数据部分
+        $data = 'theCityName=北京'; // 多个参数 'theCityCode=北京&&theUserID=leo'
+        curl_setopt($curlobj, CURLOPT_POSTFIELDS, $data);
+
 
 
 ##### 参考
