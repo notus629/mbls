@@ -147,12 +147,15 @@ date_default_timezone_set('PRC');
 
 // 让 cURL 在本地支持 cookie(session)
 curl_setopt($curlobj, CURLOPT_COOKIESESSION, TRUE);
+
 // cookie 在本地保存的位置, 读取
-    curl_setopt($curlobj, CURLOPT_COOKIEFILE, 'cookiefile');
+curl_setopt($curlobj, CURLOPT_COOKIEFILE, 'cookiefile');
+
 // 存储文件
-    curl_setopt($curlobj, CURLOPT_COOKIEJAR, 'cookiefile');
+curl_setopt($curlobj, CURLOPT_COOKIEJAR, 'cookiefile');
+
 // cookie 里存的内容
-    curl_setopt($curlobj, CURLOPT_COOKIE, session_name().'='.session_id());
+curl_setopt($curlobj, CURLOPT_COOKIE, session_name().'='.session_id());
 ```
 
 ##### 参考
