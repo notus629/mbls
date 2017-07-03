@@ -96,7 +96,7 @@ curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1);
 ```
 
 * CURLOPT_TIMEOUT
-```php  
+```PHP  
 // 下载超时时间，秒为单位
 curl_setopt($curlobj, CURLOPT_TIMEOUT, 300);
 ```
