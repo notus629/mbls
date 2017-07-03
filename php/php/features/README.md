@@ -9,7 +9,6 @@
 * [接口](#接口)
     * [示例](#示例)
     * [参考](#参考)
-* [curl 扩展](#curl扩展)
 
 
 #### 命名空间
@@ -233,8 +232,6 @@ print_r($documentStore->getDocuments());
 ##### 参考
 1. "Modern PHP (中文版)"，Josh Lockhart 著，安道译，中国电力出版社，2015. pp19-22.
 2. GitHub: codeguy/modern-php/02-features/interfaces/. https://github.com/codeguy/modern-php/tree/master/02-features/interfaces
-
-#### curl 扩展
 
 
 
