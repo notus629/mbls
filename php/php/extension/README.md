@@ -25,9 +25,9 @@ PHP supports **libcurl** that allows you to connect and communicate to many diff
 
 In order to use PHP's cURL functions you need to install the **libcurl** package.
 
-To use PHP's cURL support you must also compile PHP **--with-curl[=DIR]** where DIR is the location of the directory containing the lib and include directories. In the include directory there should be a folder named curl which should contain the easy.h and curl.h files. There should be a file named libcurl.a located in the lib directory. Beginning with PHP 4.3.0 you can configure PHP to use cURL for URL streams --with-curlwrappers . This feature was moved to PECL as of PHP 5.5.0.
+To use PHP's cURL support you must also compile PHP **--with-curl[=DIR]** where DIR is the location of the directory containing the lib and include directories. In the include directory there should be a folder named *curl* which should contain the `easy.h` and `curl.h` files. There should be a file named `libcurl.a` located in the lib directory. 
 
-In order to enable this module on a Windows environment, *libeay32.dll* and *ssleay32.dll* must be present in your PATH. You don't need libcurl.dll from the cURL site.
+In order to enable this module on a Windows environment, `libeay32.dll` and `ssleay32.dll` must be present in your PATH. You don't need libcurl.dll from the cURL site.
 
 
 ##### 基本步骤
@@ -37,14 +37,14 @@ In order to enable this module on a Windows environment, *libeay32.dll* and *ssl
 
  /*用代码完成上述cURL的四步*/
  
-// 1.初始化，创建一个新 cURL 资源 
+// 1. 初始化，创建一个新 cURL 资源 
 $ch = curl_init();
  
-// 2.设置 URL 和相应的选项 
+// 2. 设置 URL 和相应的选项 
 curl_setopt($ch, CURLOPT_URL, "http://www.lampbrother.net/"); 
 curl_setopt($ch, CURLOPT_HEADER, 0);
  
-// 3.抓取 URL 并把它传递给浏览器
+// 3. 发送请求和接收服务器数据
 curl_exec($ch);
  
 // 4.关闭 cURL 资源，并且释放系统资源 
