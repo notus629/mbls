@@ -9,6 +9,6 @@
 
 * 示例
 
-```mysql
+```db
 mysql> select * from db_name \G;
 ```
