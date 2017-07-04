@@ -7,7 +7,18 @@
 
 #### 基础
 
-* 在哪里进行配置 [[参考](http://php.net/manual/en/configuration.changes.modes.php)]
+##### php.ini 主要搜索位置
+
+* SAPI 模块指定的位置(如 Apache 2 的 `PHPIniDir` 指令，CGI 和 CLI 的 `-c` 命令行选项)。
+
+* `PHPRC` 环境变量
+
+* 当前工作目录（对于 CLI ??)
+
+* Web 服务器目录 (对于 SAPI 模块), 或 PHP 所在目录 (对于 Windows)
+
+
+##### 在哪里进行配置 [[参考](http://php.net/manual/en/configuration.changes.modes.php)]
     * `ini_set()`
     * `php.ini`
     * `http.conf`
