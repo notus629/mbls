@@ -7,4 +7,7 @@
 
 #### 基础
 
-* 可以在哪里进行设置 [[参考](http://php.net/manual/en/configuration.changes.modes.php)]
+* 在哪里进行设置 [[参考](http://php.net/manual/en/configuration.changes.modes.php)]
+    * `ini_set()`
+    * `php.ini`
+    * `http.conf`
