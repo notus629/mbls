@@ -8,6 +8,7 @@
 ##### 查询
 
 * 示例
-{%ace edit=true lang='javascript'%}
+
+{%ace edit=true lang='mysql'%}
 mysql> select * from db_name \G;
 {%ace%}
