@@ -11,6 +11,7 @@
 `MODULE_NMAE` | 当前模块名称
 
 #### 模板替换
+[参考](https://www.kancloud.cn/manual/thinkphp/1823)
 
 指令 | 含义
 --- | ---
