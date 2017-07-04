@@ -10,6 +10,7 @@
   * [Laravel](php/laravel/README.md)
   * [ThinkPHP](php/thinkphp/README.md)
     * [TP 基础](php/thinkphp/basic/README.md)
+    * [TP 模板](php/thinkphp/template/README.md)
     * [数据库操作](php/thinkphp/db/README.md)
     * [TP 专题](php/thinkphp/topic/README.md)
     * [TP FAQ](php/thinkphp/faq/README.md)
