@@ -10,5 +10,5 @@
 * 示例
 
 ```mysql
-mysql> select * from db_name \G
+mysql> select * from db_name \G;
 ```
