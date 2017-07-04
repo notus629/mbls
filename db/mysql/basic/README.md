@@ -11,4 +11,4 @@
 
 {%ace edit=true lang='mysql'%}
 mysql> select * from db_name \G;
-{%ace%}
+{%endace%}
