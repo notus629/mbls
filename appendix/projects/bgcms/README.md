@@ -65,6 +65,9 @@ lastlogintime | `int UNSIGNED DEFAULT '0' ` | 最近一次登录时间
 
 ##### 登录模块
 * 主要用于处理用户登录、登出    
+
+##### 菜单管理
+* 
     
     
     

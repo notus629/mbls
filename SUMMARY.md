@@ -25,6 +25,7 @@
     * [SB Admin](htmlcss/bootstrap/sbadmin/README.md)
 * [数据库](db/README.md)
   * [MySQL](db/mysql/README.md)
+    * [MySQL 基础](db/mysql/basic/README.md)
     * [MySQL 配置](db/mysql/config/README.md)
     * [MySQL 专题](db/mysql/topic/README.md)
   * [Redis](db/redis/README.md)
