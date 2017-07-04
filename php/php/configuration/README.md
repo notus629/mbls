@@ -15,7 +15,7 @@
 
 * 当前工作目录（对于 CLI ??)
 
-* Web 服务器目录 (对于 SAPI 模块), 或 PHP 所在目录 (对于 Windows)
+* Web 服务器目录 (对于 SAPI 模块), 或 PHP 所在目录 (对于 Windows ??)
 
 
 ##### 在哪里进行配置 [[参考](http://php.net/manual/en/configuration.changes.modes.php)]
