@@ -172,14 +172,24 @@ curl_setopt($curlobj, CURLOPT_COOKIE, session_name().'='.session_id());
 * 表明类可以做什么（像是接口）
 * 提供模块化实现（像是类)
 
-创建性状
+##### 创建性状
 ```php
 <?php
 trait MyTrait {
     // 这里是性状的实现
 }
 ```
+##### 使用性状
+PHP 解释器在编译时会把性状复制粘贴到类的定义体中。
 
+```php
+<?php
+class MyClass
+{
+    use MyTrait;
+    // 这里是类的实现
+}
+```
 
 
 
