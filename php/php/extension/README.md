@@ -165,7 +165,20 @@ curl_setopt($curlobj, CURLOPT_COOKIE, session_name().'='.session_id());
 
 ---
 
+#### 性状
 
+**性状**是类的部分实现(即常量、属性和方法), 可以混入一个或多个现有的 PHP 类中。
+
+* 表明类可以做什么（像是接口）
+* 提供模块化实现（像是类)
+
+创建性状
+```php
+<?php
+trait MyTrait {
+    // 这里是性状的实现
+}
+```
 
 
 
