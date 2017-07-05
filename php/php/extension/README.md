@@ -163,6 +163,8 @@ curl_setopt($curlobj, CURLOPT_COOKIE, session_name().'='.session_id());
 1. php manual, curl. http://php.net/manual/en/book.curl.php
 2. php manual, curl 选项列表。http://php.net/manual/en/function.curl-setopt.php
 
+---
+
 
 
 
