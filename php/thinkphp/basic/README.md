@@ -20,9 +20,31 @@
 --- | ---
 **LOAD_EXT_CONFIG** | // 加载扩展配置文件<br/> `'LOAD_EXT_CONFIG' => 'user,db'` [[参考](https://www.kancloud.cn/manual/thinkphp/1693)]
 **URL_CASE_INSENSITIVE** | // URL 地址不区分大小写 `'URL_CASE_INSENSITIVE' =>true`
-**TMPL_PARSE_STRING** | // 更换模板变量规则，修改配置<br/> `'TMPL_PARSE_STRING'=>array(`<br/>`'__CSS__'=>__ROOT__.'/Public/Css',` <br/> `'__JS__'=>__ROOT__.'/Public/Js')`
-**TMPL_L_DELIM** <br/> **TMPL_R_DELIM** | `'TMPL_L_DELIM'=>'<{', `<br/> `'TMPL_R_DELIM'=>'}>'`
+**TMPL_PARSE_STRING** | // 更换模板变量规则，修改配置<br/> `'TMPL_PARSE_STRING'=>array(`<br /> `'__CSS__'=>__ROOT__.'/Public/Css',` <br/> `'__JS__'=>__ROOT__.'/Public/Js')`
+**TMPL_L_DELIM** <br/> **TMPL_R_DELIM** | `'TMPL_L_DELIM'=>'{{', `<br/> `'TMPL_R_DELIM'=>'}}'`
 
+
+<table>
+<tr>
+<td>
+   <pre lang="csharp">
+   const int x = 3;
+   const string y = "foo";
+   readonly Object obj = getObject();
+   </pre>
+</td>
+<td>
+  <pre lang="nemerle">
+  def x : int = 3;
+  def y : string = "foo";
+  def obj : Object = getObject();
+  </pre>
+</td>
+<td>
+  Variables defined with <code>def</code> cannot be changed once defined. This is similar to <code>readonly</code> or <code>const</code> in C# or <code>final</code> in Java. Most variables in Nemerle aren't explicitly typed like this.
+</td>
+</tr>
+</table>
 
 ##### 数据库配置
 
