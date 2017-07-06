@@ -47,8 +47,8 @@ $ gitbook serve
 插件呈现的结果在 Web 中可以正常显示，在 GitBook Editor 中无法正确显示。
 
 * 示例 - c++ 代码 
-    * 代码起始： {% raw %}{%ace edit=true, lang='c_cpp'%}{% endraw %}
-    * 代码结束： {% raw %}{%endace%}{% endraw %}
+    * 代码起始： {% raw %}`{%ace edit=true, lang='c_cpp'%}`{% endraw %}
+    * 代码结束： {% raw %}`{%endace%}`{% endraw %}
 
 {%ace edit=true, lang='c_cpp'%}
 // This is a hello world program for C.
