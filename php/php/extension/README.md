@@ -198,7 +198,8 @@ class MyClass
 1. "Modern PHP 中文版", Josh Lockhart 著, 安道译. 中国电力出版社, 2015. pp23-26.
 
 
-
+#### 参考
+1. php manual, Extension List.  http://php.net/manual/en/extensions.membership.php#extensions.membership.core
 
 
 
