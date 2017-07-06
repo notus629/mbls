@@ -66,10 +66,10 @@ int main(){
 #### 那些年，我所遇到的坑
 1. 因为四个空格后是引用，此第一级的列表前不要打四个空格。否则在 * GitBook Editor* 中没有问题，但到了 *gitbook.io* 链接会显示源码，而不会正确的展示。
 
-1. `{%  raw  %} {%  endraw  %} `慎用，在 GitBookEditor 和 GitBook.com 上表现不一。（ { 或 } 与 % 之间无空格）.
+1. `{ %  raw  % } { %  endraw  % } `慎用，在 GitBookEditor 和 GitBook.com 上表现不一。（ { 或 } 与 % 之间无空格）.
 
-1. GitBook 表格中，使用 `gitbook serve` 解析时，出现 'unexpected variable' 的错误，将这段错误用 `{% raw %}` 
-和 `{% endraw %}` 包起来后错误消失。
+1. GitBook 表格中，使用 `gitbook serve` 解析时，出现 'unexpected variable' 的错误，将这段错误用 `{ % raw % }` 
+和 `{ % endraw % }` 包起来后错误消失。
 
 1. flow, new-flowchart 两个插件都不起作用。前者似乎语法都有误，无法开启 `gitbook serve`, 后者没法使用。
 
