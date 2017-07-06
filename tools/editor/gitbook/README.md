@@ -47,6 +47,8 @@ $ gitbook serve
 插件呈现的结果在 Web 中可以正常显示，在 GitBook Editor 中无法正确显示。
 
 * 示例 - c++ 代码 
+    * 代码起始： `{%ace edit=true, lang='c_cpp'%}`
+    * 代码结束： `{%endace%}`
 
 {%ace edit=true, lang='c_cpp'%}
 // This is a hello world program for C.
@@ -64,7 +66,9 @@ int main(){
 #### 那些年，我所遇到的坑
 1. 因为四个空格后是引用，此第一级的列表前不要打四个空格。否则在 * GitBook Editor* 中没有问题，但到了 *gitbook.io* 链接会显示源码，而不会正确的展示。
 
-1. { %  raw  % } { %  endraw  % } 慎用，在 GitBookEditor 和 GitBook.com 上表现不一。（ { 或 } 与 % 之间无空格）
+1. `{%  raw  %} {%  endraw  %} `慎用，在 GitBookEditor 和 GitBook.com 上表现不一。（ { 或 } 与 % 之间无空格）.
+
+1. GitBook 表
 
 1. flow, new-flowchart 两个插件都不起作用。前者似乎语法都有误，无法开启 `gitbook serve`, 后者没法使用。
 
