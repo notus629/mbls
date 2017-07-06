@@ -18,9 +18,9 @@
 配置项 | 说明
 --- | ---
 **LOAD_EXT_CONFIG** | // 加载扩展配置文件 [[参考](https://www.kancloud.cn/manual/thinkphp/1693)] <br /> `'LOAD_EXT_CONFIG' => 'user,db'` 
-**URL_CASE_INSENSITIVE** | // URL 地址不区分大小写 <br /> `'URL_CASE_INSENSITIVE' =>true`
 **TMPL_PARSE_STRING** | // 更换模板变量规则，修改配置 <br /> `'TMPL_PARSE_STRING'=>array(` <br /> `'__CSS__'=>__ROOT__.'/Public/Css',` <br /> `'__JS__'=>__ROOT__.'/Public/Js')`
 **TMPL_L_DELIM** <br /> **TMPL_R_DELIM** | `'TMPL_L_DELIM'=>'{ {'`, <br> `'TMPL_R_DELIM'=>'} }'`
+**URL_CASE_INSENSITIVE** | // URL 地址不区分大小写 <br /> `'URL_CASE_INSENSITIVE' =>true`
 
 
 ##### 数据库配置
