@@ -29,7 +29,7 @@
 
 名称 | 解释
 --- | --- |
-~~DB_DSN~~ | DSN：数据源名称。<br /> 若 DSN 与其它配置方式同时存在，以 DSN 优先。 <br /> ` "DB_DSN" => "mysql://root:pwd@localhost:3306/thinkphp" `. TP 3.2 起 DB_DSN 参数的作用已经改变了，因此默认情况下不再需要设置，直接设置为空字符串即可。[[参考](http://www.thinkphp.cn/topic/26803.html)]
+~~DB_DSN~~ | DSN：数据源名称。<br /> 若 DSN 与其它配置方式同时存在，以 DSN 优先。 <br /> ` "DB_DSN" => "mysql://root:pwd@localhost:3306/thinkphp" `. <br /> TP 3.2 起 DB_DSN 参数的作用已经改变了，因此默认情况下不再需要设置，直接设置为空字符串即可。[[参考](http://www.thinkphp.cn/topic/26803.html)]
 **DB_HOST** | // 设置主机名 `"DB_HOST" => "localhost"`
 **DB_NAME** |	// 设置数据库名`"DB_NAME" => "thinkphp"`
 **DB_PORT** |	// 数据库的端口号，一般可省 `"DB_PORT" => "3306"`
