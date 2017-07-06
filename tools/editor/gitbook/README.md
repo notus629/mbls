@@ -68,7 +68,8 @@ int main(){
 
 1. `{%  raw  %} {%  endraw  %} `慎用，在 GitBookEditor 和 GitBook.com 上表现不一。（ { 或 } 与 % 之间无空格）.
 
-1. GitBook 表
+1. GitBook 表格中，使用 `gitbook serve` 解析时，出现 'unexpected variable' 的错误，将这段错误用 `{% raw %}` 
+和 `{% endraw %}` 包起来后错误消失。
 
 1. flow, new-flowchart 两个插件都不起作用。前者似乎语法都有误，无法开启 `gitbook serve`, 后者没法使用。
 
