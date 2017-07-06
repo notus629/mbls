@@ -24,9 +24,6 @@
 **TMPL_L_DELIM** <br> **TMPL_R_DELIM** | `'TMPL_L_DELIM'=>'{{', `<br> `'TMPL_R_DELIM'=>'}}'`
 
 
-
-
-
 ##### 数据库配置
 
 在 `config.php` 中配置, [[参考](https://www.kancloud.cn/manual/thinkphp/1731)]
